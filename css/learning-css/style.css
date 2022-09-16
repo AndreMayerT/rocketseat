@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 1920px;
+    border: 10px red;
+    border-style: solid;
+    color: black;
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    color: black;
+    background-color: blue;
+    background-image: linear-gradient(red, yellow);
+    background-origin: border-box;
+    background-clip: content-box;
+}

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+label {
+    display: grid;
+    max-width: 50%;
+}
+
+button{
+    display: grid;
+}
+
+input, textarea {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    gap: 1rem;
+}
+
+.column-left, .column-right {
+    border: 1px solid;
+    height: 96vh;
+}
+
+.column-left {
+    flex-basis: 25%;
+}
+
+.column-right {
+    flex: 1;
+}
